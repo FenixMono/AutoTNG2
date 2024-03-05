@@ -24,3 +24,9 @@ public class UserSteps {
         return post(user(), config.generateToken()).spec(ok()).extract().as(GenerateTokenResponseDTO.class);
     }
 }
+
+//для пулреквеста закомітити
+{
+
+
+        }
